@@ -7,14 +7,23 @@
   <title>Weather</title>
   <link rel="icon" href="/img/cloudy.png">
   <link rel="stylesheet" href="./css/styles.css">
-  <script src="/js/app.js">  </script>
 </head>
 <body>
   <div class="main-content">
       {{>header}}
+
       <p>Use this site to get your weather</p>
+
+      <form action=""> 
+        <input type="text" placeholder="Enter Location">
+        <button>
+          <img src="/img/loupe.png" alt="search" style="width: 10px;">
+        </button>
+      </form>
   </div>
 
   {{>footer}}
+
+    <script src="/js/app.js">  </script>
 </body>
 </html>
