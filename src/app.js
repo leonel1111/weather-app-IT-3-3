@@ -18,10 +18,10 @@ hbs.registerPartials(partialsPath)
 app.use(express.static(publicDirectoryPath))
 
 app.get('', (req, res) => {
-  res.render('index', {
-    title: 'Weather',
-    name: 'Leonel'
-    })
+   res.render('index', {
+     title: 'Weather',
+     name: 'Leonel'
+      })
 })
 
 app.get('/about', (req, res) => {
@@ -35,7 +35,7 @@ app.get('/help', (req, res) => {
   res.render('help', {
     helpText: 'this is help',
     title: 'Help', 
-    name: 'Leonel Guban'
+    name: 'Leonel Angelo Guban'
   })
 })
 
@@ -44,6 +44,10 @@ app.get('/weather', (req, res) => (
     forecast: 'it is raining',
     location: 'in the pelepens'
   })
+))
+
+app.get('*', (req, res) => (
+  res.send('404 page')
 ))
 
 
