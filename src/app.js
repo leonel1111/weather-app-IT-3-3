@@ -46,8 +46,20 @@ app.get('/weather', (req, res) => (
   })
 ))
 
+app.get('/help/*', (req, res) => (
+  res.render('404', {
+    title: '404 Help',
+    name: 'Leonel Angelo Guray Guban',
+    errorMessage: 'Help article not found'
+  })
+))
+
 app.get('*', (req, res) => (
-  res.send('404 page')
+  res.render('404', {
+    title: '404',
+    name: 'Leonel Angelo Guray Guban',
+    errorMessage: "Page not found"
+  })
 ))
 
 

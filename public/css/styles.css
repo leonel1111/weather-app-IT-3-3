@@ -1,19 +1,62 @@
-h1 {
-  color: grey;
-}
-
-img {
-  width: 250px;
-}
-
+/* THIS IS MOD BY ME */
 body {
   background-color: rgb(50, 48, 48);
+  font-family: arial;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+  border-style: solid;
+  color: aliceblue;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-p {
-  color: white;
+.main-content{
+  flex-grow: 1;
 }
 
-a{
-  color: bisque
+
+/* actual code */
+h1 {
+  color: grey;
+  font-size: 64px;
+  margin-bottom: 16px;
 }
+
+footer {
+  color: rgb(127, 165, 150);
+  border-top: 1px solid rgb(127, 165, 150);
+  margin-top: 16px;
+  padding: 16px 0; 
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+header a {
+  color: bisque;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.vector-img {
+  width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
