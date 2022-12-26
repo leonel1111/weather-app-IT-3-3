@@ -29,6 +29,11 @@ WEATHERSTACK_API_KEY=your-api-key
 npm start
 ```
 The server will start listening for requests on port 3000.
+5. Open the browser and type this as a url:
+
+```bash 
+localhost:3000
+```
 
 ## Usage
 
