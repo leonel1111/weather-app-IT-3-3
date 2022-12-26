@@ -11,12 +11,13 @@ This is a Node.js server for a weather app that uses the Express.js web framewor
 1. Clone this repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/your-username/weather-app-server.git
+git clone (https://github.com/leonel1111/weather-app-IT-3-3.git)
 cd weather-app-server
 ```
 2. Install the dependencies:
 ```bash
-npm install
+npm install Express.js
+npm install handlebars
 ```
 3. Create a file called .env in the root directory of the project, and set the WEATHERSTACK_API_KEY variable to your weatherstack API key:
 
